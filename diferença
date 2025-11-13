@@ -1,0 +1,11 @@
+let v1 = 66, v2 = 66, diferenca;
+
+if (v1 > v2){
+    diferenca = v1 - v2
+    console.log(v1 + " é maior que " + v2 + " resposta do calculo é " + diferenca)
+} else if (v1 < v2){
+    diferenca = v2 - v1
+    console.log(v1 + " é menor que " + v2 + " resposta do calculo é " + diferenca)
+} else {
+    console.log(" os dois valores " + v1 + " e " + v2 + " são iguais o valor calculado é 0")
+}
